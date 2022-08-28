@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.movies-container {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-info-container {
+  width: 450px;
+}
+
+.movie-poster {
+  height:500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie-stats{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-movie-container {
+  width:100%;
+  margin: 30px auto;
+}
+
+input {
+  width:80%;
+}
